@@ -1,5 +1,3 @@
-Just a bit of text for now.
-Hey look, some more text was added! 
-Neat!
-More text coming up
-Test
+Project made during the CodeNation two day course. 
+Find Code Nation :
+https://wearecodenation.com/
