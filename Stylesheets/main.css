@@ -1,0 +1,157 @@
+/**! The Universal Section !*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+.footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.footer img {
+    padding-top: 700px
+}
+/*? Nav Bar position and format */
+.nav {
+    margin: auto;
+    width: 50%;
+    border: 15px black;
+    padding: 10px;
+    background-color: rgb(148, 233, 123);
+    padding-left: 170px;
+}
+.nav {
+    background-image: linear-gradient(to bottom , #ff0000, rgb(224, 109, 109) )
+}
+.nav ol {
+    display: flex;
+    flex-direction: row;
+}
+.nav ol li {
+    list-style: none;
+}
+.normalButton {
+    background-image: linear-gradient(to bottom right, #ff0800, yellow )
+}
+.normalButton {
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.normalButton:hover {
+    background-color: #3e8e41;
+}
+/*? Dropdown Button */
+.dropbtn {
+    background-image: linear-gradient(to bottom right, #ff0800, yellow )
+}
+.dropbtn {
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*? The container <div> - to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/*? Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/*? Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/*? Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/*? Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/*? Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/**Heading and Slogan*/
+.title {
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    border-bottom: black;
+}
+.name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #ff0800;
+    padding-left: 270px;
+}
+.slogan {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #ff0800;
+}
+/**! index section !*/
+.welcome {
+    margin: auto;
+    width: 900px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/**! aboutUs section !*/
+.heading {
+    padding-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align: center;    
+}
+.text {
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center
+}
+.heading img {
+    width: 900px;
+}
+/**! bookATable section !*/
+
+/**! breakfastMenu section !*/
+
+/**! dinnerMenu section !*/
+
+/**! lunchMenu section !*/
+
+/**! meetTheTeam section !*/
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.text ul {
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center
+    list-style-type: none;
+}
+/**! ourMenu section !*/
+
+/**! theGame section !*/
+
+/**! thisIsNotAJoke section !*/
+
+/**! underConstruction section !*/
