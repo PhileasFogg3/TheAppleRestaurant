@@ -133,12 +133,6 @@ body {
     margin-right: auto;
     width: 75%;
 }
-/**! breakfastMenu section !*/
-
-/**! dinnerMenu section !*/
-
-/**! lunchMenu section !*/
-
 /**! meetTheTeam section !*/
 .image {
     display: block;
@@ -159,10 +153,13 @@ body {
     text-align: center;
     list-style: inside;
 }
-/**! ourMenu section !*/
-
 /**! theGame section !*/
-
-/**! thisIsNotAJoke section !*/
-
-/**! underConstruction section !*/
+.game {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 10%;
+    padding-top: 500px;
+}
